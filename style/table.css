@@ -225,7 +225,110 @@
   text-align: left;
 }
 
-.powerfulTetxSect{
+.powerfulTetxSect {
   margin-top: -400px;
   margin-left: 400px;
+}
+
+/* ------------------powerfulSection Finished-------- */
+
+/* -----------------signUpEmailSection----------- */
+
+.signUpEmailSection {
+  background-image: url(../Images/SIGN\ UP.png);
+  background-size: cover;
+}
+
+.signUpEmailSectionText {
+  padding-top: 877px;
+  color: var(--text-dark, #292930);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 33.6px;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.signUpEmailSections {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.signUpEmailSectionInp {
+  border: none;
+  padding: 42px 324px 42px 72px;
+  border-radius: 20px;
+  background: #fff;
+  cursor: pointer;
+  color: #999fae;
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+.signUpEmailSectionBtn {
+  border: none;
+  padding: 25px 46px;
+  border-radius: 20px;
+  background: #5956e9;
+  margin-left: -170px;
+  cursor: pointer;
+}
+
+/* -----------------signUpEmailSection Finished----------- */
+
+/* --------------------Native Like Began--------------------- */
+.NativeLikeSection {
+  padding: 112px 100px;
+}
+
+.NativeLikeSectionHeader {
+  display: flex;
+  gap: 14px;
+  padding-left: 90px;
+}
+
+.AutoText {
+  color: var(--color-primary, #5956e9);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 99.327%; /* 19.865px */
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.ResponsiveText {
+  width: 500px;
+  color: #292930;
+  font-family: DM Sans;
+  font-size: 80px;
+  font-style: normal;
+  line-height: 80px;
+  text-align: left;
+  margin-bottom: 47px;
+}
+
+.EasilyText {
+  width: 408px;
+  color: var(--text-grey, #999fae);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.iconsSection {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 32px;
 }
