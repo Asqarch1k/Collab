@@ -1,0 +1,231 @@
+.header {
+  position: relative;
+  padding: 40px 100px 1px 100px;
+}
+
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 40px 36px; */
+  margin-top: -1100px;
+}
+
+.headerTopTex {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+
+.signUpBtn {
+  padding: 24px 40px;
+  border-radius: 20px;
+  background: var(--color-accent-02, #fab8c4);
+  border: none;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  color: var(--text-blue, #2522ba);
+  text-align: center;
+}
+
+.headerTopSpan {
+  color: var(--text-dark, #292930);
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+.headerText {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+}
+
+.headerTexts {
+  color: var(--text-grey, #999fae);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.64px;
+  cursor: pointer;
+}
+
+.headerTexts:hover {
+  color: #292930;
+}
+
+.selectIcon:hover {
+  cursor: pointer;
+}
+
+.headerBorderPick {
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+}
+
+.headerMain {
+  display: flex;
+  gap: 52px;
+}
+
+.headerMainRightCircleBlue {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #5956e9;
+  margin-top: -60px;
+  margin-left: 50px;
+}
+
+.createLikeTex {
+  color: #292930;
+  font-family: DM Sans;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 99.327%;
+  letter-spacing: -2.4px;
+  margin-bottom: 24px;
+  text-align: left;
+  height: 380px;
+  width: 323px;
+}
+
+.headerMainLeft {
+  margin-top: 100px;
+}
+
+.createBuildTex {
+  color: var(--text-grey, #999fae);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.headerMainBottom {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.headerMainBottomIcon {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.getStartedBtn {
+  padding: 29px 46px;
+  border-radius: 29px;
+  border: none;
+  background-color: #5956e9;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.headerMainRightCircle {
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  border-radius: 50%;
+  margin-top: 70px;
+}
+
+.headerMainRighFoto {
+  margin-top: -170px;
+}
+
+/* @media only screen and (max-width: 1000px) {
+  .img1 {
+    width: 100%;
+    display: none;
+  }
+  .mobile {
+    width: 100%;
+    display: block;
+  }
+} */
+
+/* -----------------powerfulSection------------------- */
+
+.powerfulSectionCircles {
+  display: flex;
+  margin-top: -100px;
+  gap: 13px;
+}
+
+#powerfulSection {
+  background-color: #27272e;
+  padding-left: 100px;
+  height: 1024px;
+}
+
+.powerfulSectionCircles1 {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #525260;
+  margin-top: 500px;
+}
+
+.powerfulSectionCircles2 {
+  width: 520px;
+  height: 520px;
+  border: 1px solid var(--stroke-dark, #42424a);
+  border-radius: 50%;
+  margin-right: 60px;
+}
+
+.powerfulSectionCircles3 {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: #fab8c4;
+  margin-top: -90px;
+}
+
+.powerfulSectionCircles4 {
+  width: 268px;
+  height: 268px;
+  border-radius: 50%;
+  background: var(--Grey-Shades, #525260);
+  margin-top: 114px;
+}
+
+.powerfulTetx {
+  color: var(--color-white, #fff);
+  font-family: DM Sans;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 100%;
+  width: 702px;
+  text-align: left;
+  letter-spacing: -2px;
+  margin-bottom: 48px;
+}
+
+.SimultaneouslyText {
+  color: var(--color-white, #fff);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 502px;
+  text-align: left;
+}
+
+.powerfulTetxSect{
+  margin-top: -400px;
+  margin-left: 400px;
+}
