@@ -1104,11 +1104,161 @@ button {
 
 /* ----------------Fire Section-------- */
 
-.fireSectionLeft {
+.fireSectionMain {
   width: 500px;
   height: 680px;
-  flex-shrink: 0;
   border-radius: 40px;
   border: 1px solid #e3e6e9;
-  background: var(--color-whitergb(58, 53, 53)ff);
+  background: #fff;
+  padding: 80px;
+}
+
+.ScheduleText{
+  color: var(--text-dark, #292930);
+font-family: DM Sans;
+font-size: 64px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 64px */
+text-align: left;
+margin-bottom: 45px;
+}
+
+.StillText{
+  color: var(--text-grey, #999FAE);
+font-family: DM Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 33.6px */
+letter-spacing: -1.08px;
+text-align: left;
+margin-bottom: 109px;
+
+}
+
+.fireBtn{
+  width: 339px;
+}
+
+.fireSectionMains{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.ScheduleText1{
+  color: #fff;
+}
+
+.StillText1{
+  color: #fff;
+}
+
+.topCircle{
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #FAB8C4;
+  margin-right: -250px;
+  margin-left: 250px;
+}
+
+.firePot{
+  margin: 100px 0 32px 0;
+}
+
+.topCircleTex{
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 72px;
+}
+
+.offerText{
+  width: 449px;
+color: var(--text-dark, #292930);
+text-align: center;
+font-family: DM Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 33.6px */
+letter-spacing: -1.08px;
+margin: 0 auto;
+}
+
+/* ----------------------------- */
+
+/* -------------------reSearchSection--------- */
+
+.reSearchSection{
+  background-image: url(../Images/RESEARCHBack);
+  max-width: 1240px;
+  margin: 0 auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.researchDiv{
+  display: flex;
+  justify-content: space-around;
+}
+
+.ResearchTexts{
+  width: 861px;
+color: var(--text-dark, #292930);
+font-family: DM Sans;
+font-size: 80px;
+font-style: normal;
+font-weight: bold;
+line-height: 100%; /* 80px */
+letter-spacing: -1px;
+text-align: left;
+margin:112px 0 39px 0;
+
+}
+
+.CollabFastText{
+  width: 598px;
+color: var(--color-dark, #27272E);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 60px;
+
+}
+
+.sixteenTex{
+  color: var(--text-dark, #292930);
+  font-family: Poppins;
+  font-size: 288px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%; /* 288px */
+}
+
+.easyText{
+  width: 229px;
+color: var(--text-dark, #292930);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: -0.4px;
+margin: 0 auto;
+}
+
+.PlayBoxMain{
+  display: flex;
+}
+
+.PlayBox{
+  width: 120px;
+  height: 120px;
+  background-color: #5956E9;
+  border-radius: 50%;
+  font-family: 18px;
 }
