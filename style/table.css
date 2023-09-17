@@ -967,7 +967,7 @@ button {
 .footerBtn {
   background-color: #fff;
   color: #2a288b;
-  text-align: center;
+  margin-left: 400px;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -1165,7 +1165,7 @@ margin-bottom: 109px;
 }
 
 .firePot{
-  margin: 100px 0 32px 0;
+  margin: 100px 0 32px 700px;
 }
 
 .topCircleTex{
@@ -1249,16 +1249,133 @@ font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: -0.4px;
 margin: 0 auto;
+margin-top: -40px;
+text-align: left;
 }
 
 .PlayBoxMain{
   display: flex;
+  align-items: center;
+  gap: 30px;
+
 }
 
-.PlayBox{
-  width: 120px;
-  height: 120px;
+.PlayBox1{
+  width: 96px;
+  height: 96px;
   background-color: #5956E9;
   border-radius: 50%;
-  font-family: 18px;
+  font-size: 18px;
+  padding-top: 33px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 20px;
+  padding-left: 30px;
+}
+
+.findOutTex{
+  color: var(--color-dark, #27272E);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.64px;
+}
+
+/* ------------------------------- */
+
+/* --------------------smartestSection------------------ */
+
+.smartestSection{
+  width: 1240px;
+  height: 580px;
+  background-color: #5956E9;
+  border-radius: 40px;
+  margin: 0 auto;
+  padding-top: 150px;
+  padding-left: 100px;
+  position: relative;
+  z-index: -1;
+}
+
+.smartestTex{
+  color: var(--color-white, #FFF);
+  font-family: DM Sans;
+  font-size: 80px;
+  width: 810px;
+  text-align: left;
+  font-style: normal;
+  line-height: 100%;
+  margin-bottom: 50px;
+}
+
+.flexiblePricwe{
+  color: var(--color-white, #FFF);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: left;
+margin-bottom: 50px;
+}
+
+.gewgewgew{
+  background: #fff;
+  color: #5956e9; 
+  text-align: left;
+}
+.smartestHend{
+  position: absolute;
+  right: -95px;
+  top: -370px;
+}
+
+/* ------------------------------------ */
+
+/* --------------timeLineSection------------- */
+
+.timeLineSection{
+  background-image: url(../Images/TIMELINE.png);
+  height: 1186px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 200px;
+  padding-top: 150px;
+  margin-top: -100px;
+  z-index: -2;
+  margin-bottom: 150px;
+}
+
+.systemsText{
+  color: #292930;
+  font-family: DM Sans;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 80px */
+  margin-bottom: 48px;
+}
+
+.achievingText{
+  color: var(--text-grey, #999FAE);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: -0.4px;
+}
+
+.RoadmapText{
+  color: var(--color-accent-02, #FAB8C4);
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 99.327%; /* 19.865px */
+letter-spacing: -0.5px;
+margin-bottom: 24px;
 }
