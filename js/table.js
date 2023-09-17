@@ -35,3 +35,12 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+// --------------------------
+
+const headerHoverSection = document.querySelector('.headerHoverSection')
+const hoverBtn = document.querySelector('.headerTexts1')
+
+hoverBtn.addEventListener('click', () => {
+  headerHoverSection.classList.add{'.hoverBlocked'}
+})

@@ -12,7 +12,11 @@
 }
 
 .container {
-  border: 1px solid red;
   margin: 0 auto;
-  width:  1440px;
+  width: 1440px;
+  overflow: hidden;
+}
+
+button:active{
+  transform: scale(0.95);
 }
