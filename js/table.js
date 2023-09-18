@@ -1,46 +1,33 @@
-var swiper = new Swiper('.swiper', {
-    slidesPerView: 3,
-    direction: getDirection(),
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+const headerHoverSection = document.querySelector(".headerHoverSection");
+const hoverBtn = document.querySelector(".headerTexts1");
+
+hoverBtn.addEventListener("mouseover", () => {
+  headerHoverSection.style.display = "inline-flex";
+});
+
+headerHoverSection.addEventListener("mouseleave", () => {
+  headerHoverSection.style.display = "none";
+});
+
+var swiper = new Swiper(".swiper", {
+  slidesPerView: 3,
+  direction: getDirection(),
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  on: {
+    resize: function () {
+      swiper.changeDirection(getDirection());
     },
-    on: {
-      resize: function () {
-        swiper.changeDirection(getDirection());
-      },
-    },
-  });
+  },
+});
 
-  function getDirection() {
-    var windowWidth = window.innerWidth;
-    var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+function getDirection() {
+  var windowWidth = window.innerWidth;
+  var direction = window.innerWidth <= 760 ? "vertical" : "horizontal";
 
-    return direction;
-  }
-
-  // -------------------------------------------------
-
-  const acc = document.querySelector(".pluss");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
+  return direction;
 }
 
-// --------------------------
-
-const headerHoverSection = document.querySelector('.headerHoverSection')
-const hoverBtn = document.querySelector('.headerTexts1')
-
-hoverBtn.addEventListener('click', () => {
-  headerHoverSection.classList.add{'.hoverBlocked'}
-})
+// // -------------------------------------------------

@@ -194,10 +194,10 @@
 
 .headerHoverSection {
   /* display: none; */
-}
+  position: relative;
+  margin-top: -650px;
+  z-index: 4;
 
-.headerHoverSection:hover {
-  display: flex;
 }
 
 .flextPage {
