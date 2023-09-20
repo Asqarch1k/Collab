@@ -1,0 +1,66 @@
+.loginSection {
+  background-image: url(../Images/Login\ -\ Step\ 2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+
+.gmailSect {
+  display: flex;
+  position: relative;
+}
+
+.gmailInput {
+  padding-left: 65px;
+  width: 386px;
+  height: 72px;
+  border-radius: 16px;
+  border: 1px solid var(--color-white, #e0e0e0);
+  background: var(--color-white, #fff);
+}
+
+.mailImg {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 30px;
+  top: 25px;
+}
+
+.pasvordForg {
+  display: flex;
+  justify-content: space-between;
+  width: 386px;
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+
+.SignInTo {
+  color: var(--text-dark, #292930);
+  font-family: DM Sans;
+  font-size: 48px;
+  font-style: normal;
+  line-height: 100%; /* 48px */
+}
+
+.EnterYour {
+  color: var(--text-grey, #999fae);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.4px;
+  margin-top: 16px;
+  margin-bottom: 54px;
+}
+
+.UsernameOr {
+  color: #292930;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 99.327%; /* 13.906px */
+  letter-spacing: -0.35px;
+  margin-bottom: 16px;
+}

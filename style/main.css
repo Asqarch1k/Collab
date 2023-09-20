@@ -13,10 +13,10 @@
 
 .container {
   margin: 0 auto;
-  width: 1440px;
+  max-width: 1440px;
   overflow: hidden;
 }
 
-button:active{
+button:active {
   transform: scale(0.95);
 }
