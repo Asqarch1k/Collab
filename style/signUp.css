@@ -63,7 +63,6 @@
   display: inline-flex;
   width: 386px;
   height: 71px;
-  padding: 23px 109px 24px 109px;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
@@ -73,9 +72,13 @@
   font-family: Poppins;
   font-size: 16px;
   white-space: nowrap;
-  color: #fff;
   margin-top: 16px;
   cursor: pointer;
+}
+
+.signUpBtn a {
+  color: #fff;
+  padding: 23px 109px 24px 109px;
 }
 
 .gmailBtn img {

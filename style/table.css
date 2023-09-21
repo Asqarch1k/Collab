@@ -9,7 +9,7 @@
   align-items: center;
   margin-top: -1100px;
 }
-@media screen and (max-width: 860px) {
+/* @media screen and (max-width: 860px) {
   .headerMain {
     max-width: 80%;
     margin: 0 auto;
@@ -17,15 +17,8 @@
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    /* align-items: center; */
-    /* justify-content: space-between; */
   }
-  .desktop__asset {
-    max-width: 80%;
-    margin: 0 auto;
-    margin-bottom: 300px;
-  }
-}
+} */
 
 .headerTopTex {
   display: flex;
@@ -145,12 +138,12 @@
   border-radius: 29px;
   border: none;
   background-color: #5956e9;
-  color: #fff;
   white-space: nowrap;
 }
 
 .getStartedBtn a {
   padding: 29px 46px;
+  color: #fff;
 }
 
 .headerMainRightCircle {
@@ -229,6 +222,7 @@
   background: #fff;
   justify-content: space-around;
   padding-top: 67px;
+  margin-top: -500px;
 }
 
 /* -------------------- */
@@ -396,6 +390,10 @@
   background: #5956e9;
   margin-left: -170px;
   cursor: pointer;
+}
+
+.signUpEmailSectionBtn a {
+  color: #fff;
 }
 
 /* -----------------signUpEmailSection Finished----------- */
@@ -761,6 +759,9 @@ input:checked + .slider:before {
 
 .clickBtn2 {
   background-color: #5956e9;
+}
+
+.clickBtn2 a {
   color: #fff;
 }
 
@@ -949,6 +950,11 @@ input:checked + .slider:before {
 }
 .website__btn {
   margin-left: 21px;
+}
+
+.website__btn a {
+  color: #fff;
+  padding-top: 15px 20px;
 }
 .website__arrow {
   margin-top: 20px;

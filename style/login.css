@@ -2,7 +2,12 @@
   background-image: url(../Images/Login\ -\ Step\ 2.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 1000px;
+}
+
+.wrapper{
+  padding-top: 268px;
+  padding-left: 847px;
+  padding-bottom: 268px;
 }
 
 .gmailSect {
@@ -63,4 +68,27 @@
   line-height: 99.327%; /* 13.906px */
   letter-spacing: -0.35px;
   margin-bottom: 16px;
+}
+
+.signUpBtn {
+  display: flex;
+  width: 213px;
+  height: 72px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: var(--color-primary, #5956e9);
+  border: none;
+  cursor: pointer;
+  margin-top: 32px;
+}
+
+.signUpBtn a {
+  color: #fff;
+  padding: 15px 20px;
+}
+
+.forgetText {
+  color: #5956e9;
 }
